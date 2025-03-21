@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: icebrown
+  docker:
+    compose:
+      enabled: false
+  datasource:
+    url: jdbc:postgresql://localhost:5432/icebrown
+    username: postgres
+    password: postgres
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
